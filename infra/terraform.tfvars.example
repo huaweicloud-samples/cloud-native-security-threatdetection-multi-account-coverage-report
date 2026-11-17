@@ -1,0 +1,14 @@
+# 示例变量文件（复制为 terraform.tfvars 后填写）
+# 在每个成员项目中分别执行 apply。
+
+# 区域（也是默认项目名）
+region = "cn-north-4"
+
+# 资源命名前缀
+project_name = "hss-coverage"
+
+# 跨项目委托名称（各成员项目保持一致）
+agency_name = "HssCoverageAgency"
+
+# 管理账号域名（运行报告工具的账号）—— 占位符，请替换为实际域名
+management_domain_name = "<MANAGEMENT_DOMAIN_NAME>"
