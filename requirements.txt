@@ -1,0 +1,5 @@
+# 主机安全跨项目覆盖报告 —— Python 依赖
+# 版本已与本地验证环境对齐（API 方法/字段随小版本漂移，请勿随意升级）
+huaweicloudsdkcore==3.1.217
+huaweicloudsdkiam==3.1.217
+huaweicloudsdkhss==3.1.217
